@@ -6,7 +6,7 @@
   </head>
   <body>
 
-<h1>Practico Nro2</h1>
+<h1>Practico 1 (Clase Nro2)</h1>
 
 <?php
 $mensaje = "Hola mundo";
