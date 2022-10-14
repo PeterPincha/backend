@@ -52,7 +52,7 @@ $numero1 = 11;
 echo "Numero ingresado ";
 echo $numero1;
 echo "<BR>";
-$numero2 = 7;
+$numero2 = 11;
 echo "Numero ingresado ";
 echo $numero2;
 echo "<BR>";
@@ -75,7 +75,7 @@ if ($numero1 > $numero2)
   echo "Division: ";
   echo $numero1 - $numero2; 
   echo "<BR>";
-} elseif ($numero1=$numero2) 
+} elseif ($numero1==$numero2) 
 {
   echo "Los números ingresados son iguales";
   echo "<BR>";
