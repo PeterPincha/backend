@@ -9,12 +9,12 @@
 </head>
 <body>
     <h1>Tienda de ropa</h1>
-    <button type="submit"><a href="index.html">Inicio</a></button>
-    <button type="submit"><a href="listacompleta.php">Lista de ropa</a></button>
-    <button type="submit"><a href="listabuzos.php">Lista de buzos</a></button>
-    <button type="submit"><a href="listanike.php">Lista de nike</a></button>
-    <button type="submit"><a href="listaprecio.php">Lista precios mayores $500</a></button>
-    <button type="submit"><a href="listarencards.php">Vista con cards</a></button>
+    <button type="submit"><a href="./index.html">Inicio</a></button>
+    <button type="submit"><a href="./listacompleta.php">Lista de ropa</a></button>
+    <button type="submit"><a href="./listabuzos.php">Lista de buzos</a></button>
+    <button type="submit"><a href="./listanike.php">Lista de nike</a></button>
+    <button type="submit"><a href="./listaprecio.php">Lista precios mayores $500</a></button>
+    <button type="submit"><a href="./listarencards.php">Vista con cards</a></button>
 
     <h2>Lista de ropa</h2>
     <p>La siguiente lista muestra los datos de la ropa actualmente en stock.</p>
@@ -27,7 +27,7 @@
     </tr>
     <?php
     // 1) Conexion
-    $conexion=mysqli_connect("127.0.0.1","root","");
+    $conexion=mysqli_connect("127.0.0.1","DarthVader","usalafuerza");
     mysqli_select_db($conexion,"db_zara");
     
     // 2) Preparar la orden SQL
