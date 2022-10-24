@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./CCS/style.css">    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+</head>
+<body>
+    <h1>Tienda de ropa</h1>
+    <button type="submit"><a href="./index.html">Inicio</a></button>
+    <button type="submit"><a href="./listar.php">Listar con foto</a></button>
+    <button type="submit"><a href="./listacompleta.php">Listar todo</a></button>
+    <button type="submit"><a href="./listabuzos.php">Listar buzos</a></button>
+    <button type="submit"><a href="./listanike.php">Listar nike</a></button>
+    <button type="submit"><a href="./listaprecio.php">Listar precios mayores $500</a></button>
+    <button type="submit"><a href="./listarencards.php">Vista con cards</a></button>
+    <button type="submit"><a href="./agregar.html">Agregar prensa</a></button>
+    <h2>Agregar ropa</h2>
+    <p>Ingrese los datos de la prenda.</p>
+
+
+    <form method="POST" action="agregar.php" enctype="multipart/form-data">
+        <label>Tipo de prenda</label>
+        <input type="text" name="tipo_prenda" placeholder="Tipo de prenda" required>
+        <label>Marca</label>
+        <input type="text" name="marca" placeholder="Marca" required>
+        <label>Talle</label>
+        <input type="text" name="talle" placeholder="Talle" required>
+        <label>Precio</label>
+        <input type="text" name="precio" placeholder="Precio" required>
+        <label>Imagen</label>
+        <input type="file" name="foto" placeholder="foto">
+        <input type="submit" name="submit" value="Ingresar">
+    </form>
+
+
+</body>
+</html>
